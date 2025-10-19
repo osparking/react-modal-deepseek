@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Modal } from "react-bootstrap";
+import { Button, Modal } from "react-bootstrap";
 import "./App.css";
 
 const TopCenteredModal = ({ show, onHide, children, title }) => {
@@ -14,6 +14,11 @@ const TopCenteredModal = ({ show, onHide, children, title }) => {
         <Modal.Title>{title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>{children}</Modal.Body>
+      <Modal.Footer className="justify-content-center">
+        <Button variant="success" onClick={() => onHide()}>
+          닫기
+        </Button>
+      </Modal.Footer>
     </Modal>
   );
 };
