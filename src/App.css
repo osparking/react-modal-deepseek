@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Custom CSS to position modal at top */
+.top-centered-modal {
+  margin-top: 40px !important;
+  max-width: 600px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Optional: Add slide-down animation */
+.modal.fade .top-centered-modal {
+  transform: translateY(-50px);
+}
+
+.modal.show .top-centered-modal {
+  transform: translateY(0);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Optional: Adjust backdrop if needed */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
