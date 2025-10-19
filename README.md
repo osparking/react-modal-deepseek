@@ -1,3 +1,7 @@
+# 지역 프로젝트 위치
+- /c/Users/jbpar/react/learn/react-modal-deepseek
+- [내 구글 docs 문서 링크](https://docs.google.com/document/d/1CdYa4z55jt8ImwnJ9PKTN8fx6DV0_-6sT9mlkvPWwBg/edit?usp=drive_link)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
